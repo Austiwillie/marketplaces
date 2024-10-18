@@ -1,0 +1,52 @@
+.card-container {
+    background-color: white;
+    padding: 16px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .header-text {
+    font-size: 20px;
+    font-weight: 500 !important;
+    color: #115093 !important;
+  }  
+  .payment-details {
+    text-decoration: underline !important;
+    color: #115093 !important;
+    text-decoration-thickness: 2px !important;
+    text-underline-offset: 5px !important;
+    margin-right: 16px !important;
+  }
+  
+    .search-icon-button {
+      background-color: #115093 !important;
+      color: white !important;
+      border-radius: 50% !important;
+      padding: 5px !important;
+      margin-right: 5px !important;
+  }
+  
+  .search-icon-button:hover {
+    background-color: blue !important;
+  }
+
+  button {
+    background-color: #115093 ;
+    color: white ;
+    border: none ;
+    border-radius: 5px ;
+    padding: 8px 16px ;
+    cursor: pointer 
+  } 
+  
+ 
+  

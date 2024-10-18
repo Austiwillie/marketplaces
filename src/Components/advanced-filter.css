@@ -1,0 +1,49 @@
+.popup-overlay {
+    position: absolute;
+    top: 232px;
+    left: 1027px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    width: 300px;
+    height: 400px;
+    border-radius: 24px;
+  }
+  
+  .popup-header {
+    background: blue;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    height: 20px;
+    width:  290px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+  }
+  
+  .popup-content {
+    background: transparent; /* Transparent blue background */
+    padding: 20px;
+    border-radius: 0 0 24px 24px;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 20px); /* Adjust height to account for header */
+    top: 20px; /* Push content down to make space for header */
+  }
+  
+
+  
+  .close-label {
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  

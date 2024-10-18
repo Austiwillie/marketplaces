@@ -1,0 +1,85 @@
+.outer-card {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start; /* Align items at the start vertically */
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+}
+
+
+.header {
+  margin-bottom: 16px; /* Add some margin to ensure it's not hidden */
+}
+
+.left-image {
+  width: 400px; /* Adjust the width as needed */
+  height: auto;
+  
+
+}
+.inner-card {
+  flex: 0 0 500px; /* Prevent the flex item from growing or shrinking */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 100%;
+  margin-left: 40px;
+}
+.inner-card-header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex; /* Add flex display */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.header-text {
+  color: white;
+}
+
+
+.text-left, .text-right {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
+
+
+.description-container {
+  width: 100%; /* Ensure the description container takes full width */
+  margin-top: 20px; /* Add margin-top to separate from the inner card */
+}
+
+.description-label {
+  margin-bottom: 10px; /* Add margin-bottom to separate from the textarea */
+}
+
+.description-textarea {
+  width: 100%; /* Make the textarea take the full width of the container */
+  padding: 10px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.header-with-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.text-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
+
+.custom-divider {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
